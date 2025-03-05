@@ -20,6 +20,10 @@ $L['home_newpages'] = 'Yeni sayfalar';
 $L['home_newtopics'] = 'Yeni konular';
 $L['home_newposts'] = 'Yeni mesajlar';
 $L['home_newpms'] = 'Yeni özel mesajlar';
+$L['guvenlik'] = 'Güvenlik';
+$L['yonetim'] = 'Yönetim';
+$L['eklentiler'] = 'Eklentiler';
+
 
 $L['home_db_rows'] = 'SQL veritabanı, satır sayısı';
 $L['home_db_indexsize'] = 'SQL veritabanı, indeks boyutu (KB)';
@@ -84,7 +88,7 @@ $L['cfg_maxrowsperpage_hint'] = 'Sayfalama için varsayılan öğe sınırı';
 $L['cfg_parser'] = 'İşaretleme ayrıştırıcı';
 $L['cfg_parser_hint'] = 'Varsayılan olarak HTML';
 $L['cfg_loggerlevel'] = 'Günlük seviyesi';
-$L['cfg_loggerlevel_params'] = 'Devre dışı,'.$L['Güvenlik'].','.$L['Yönetim'].','.$L['Eklentiler'].','.$L['Güvenlik'].'+'.$L['Yönetim'].','.$L['Güvenlik'].'+'.$L['Eklentiler'].','.$L['Yönetim'].'+'.$L['Eklentiler'].','.$L['Güvenlik'].'+'.$L['Yönetim'].'+'.$L['Eklentiler'].',Hepsi';
+$L['cfg_loggerlevel_params'] = 'Devre dışı,'.$L['guvenlik'].','.$L['yonetim'].','.$L['eklentiler'].','.$L['guvenlik'].'+'.$L['yonetim'].','.$L['guvenlik'].'+'.$L['eklentiler'].','.$L['yonetim'].'+'.$L['eklentiler'].','.$L['guvenlik'].'+'.$L['yonetim'].'+'.$L['eklentiler'].',Hepsi';
 $L['cfg_loggerlevel_hint'] = 'Hepsi: tüm işlemler günlüğe kaydedilir<br />Devre dışı: tüm kullanıcı seviyeleri için günlük kaydı tamamen devre dışı bırakılır<br />"Devre dışı" ve "Hepsi" modları, eklenti günlüğü için bireysel ayarları geçersiz kılar';
 
 /**
