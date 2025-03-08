@@ -84,11 +84,10 @@ $L['cfg_maxrowsperpage_hint'] = 'Sayfalama için varsayılan öğe sınırı';
 $L['cfg_parser'] = 'İşaretleme ayrıştırıcı';
 $L['cfg_parser_hint'] = 'Varsayılan olarak HTML';
 $L['cfg_loggerlevel'] = 'Günlük seviyesi';
-$L['cfg_loggerlevel_params'] = 'Devre dışı,'.$L['Güvenlik'].','.$L['Yönetim'].','.$L['Eklentiler'].','.$L['Güvenlik'].'+'.$L['Yönetim'].','.$L['Güvenlik'].'+'.$L['Eklentiler'].','.$L['Yönetim'].'+'.$L['Eklentiler'].','.$L['Güvenlik'].'+'.$L['Yönetim'].'+'.$L['Eklentiler'].',Hepsi';
 $L['cfg_loggerlevel_params'] = $L['Disabled'] . ',' . $L['Security'] . ',' . $L['Administration'] . ',' . $L['Extensions'] . ','
     . $L['Security'] . '+' . $L['Administration'] . ',' . $L['Security'] . '+' . $L['Extensions'] . ','
     . $L['Administration'] . '+' . $L['Extensions'] . ',' . $L['Security'] . '+' . $L['Administration'] . '+'
-    . $L['Extensions'] . ',All';
+    . $L['Extensions'] . ',Hepsi';
 $L['cfg_loggerlevel_hint'] = 'Hepsi: tüm işlemler günlüğe kaydedilir<br />Devre dışı: tüm kullanıcı seviyeleri için günlük kaydı tamamen devre dışı bırakılır<br />"Devre dışı" ve "Hepsi" modları, eklenti günlüğü için bireysel ayarları geçersiz kılar';
 
 /**
