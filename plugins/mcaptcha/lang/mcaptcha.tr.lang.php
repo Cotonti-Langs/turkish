@@ -1,18 +1,18 @@
 <?php
 /**
- * English langfile for mcaptcha
+ * mcaptcha için Türkçe Dil Dosyası
  *
  * @package MathCaptcha
  */
 
-defined('COT_CODE') or die('Wrong URL');
+defined('COT_CODE') or die('Hatalı URL');
 
-$L['info_desc'] = 'Protects website from spam bots with simple arithmetic tasks (requires JavaScript)';
+$L['info_desc'] = 'Basit aritmetik işlemlerle spam botlarına karşı koruma sağlar (JavaScript gerektirir)';
 
-$L['mcaptcha_error'] = 'Error: too many attempts, please come back later.';
-$L['captcha_verification_failed'] = 'The sum was not solved correctly';
+$L['mcaptcha_error'] = 'Hata: Çok fazla deneme yapıldı, lütfen daha sonra tekrar deneyin.';
+$L['captcha_verification_failed'] = 'Toplama işlemi doğru çözülmedi';
 
-$L['cfg_delay'] = 'Anti hammering delay';
-$L['cfg_delay_hint'] = 'sec';
-$L['cfg_attempts'] = 'Max attempts per second';
-$L['cfg_attempts_hint'] = '0 - unlimited';
+$L['cfg_delay'] = 'Saldırı önleme gecikmesi';
+$L['cfg_delay_hint'] = 'saniye';
+$L['cfg_attempts'] = 'Saniye başına maksimum deneme';
+$L['cfg_attempts_hint'] = '0 - sınırsız';
