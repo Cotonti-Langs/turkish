@@ -1,54 +1,54 @@
 <?php
 /**
- * English Language File for Ratings Plugin
+ * Ratings Eklentisi için Türkçe Dil Dosyası
  *
  * @package Ratings
- * @copyright (c) Cotonti Team
+ * @copyright (c) Cotonti Takımı
  * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
-defined('COT_CODE') or die('Wrong URL.');
+defined('COT_CODE') or die('Hatalı URL.');
 
 /**
- * Plugin Info
+ * Eklenti Bilgisi
  */
 
-$L['info_desc'] = 'One-click star ratings using jQuery';
+$L['info_desc'] = 'jQuery kullanarak tek tıklamayla yıldızlı oylama';
 
 /**
- * Plugin Config
+ * Eklenti Ayarları
  */
 
-$L['cfg_enable_ratings'] = 'Enable ratings';
-$L['cfg_ratings_allowchange'] = 'Allow ratings to be changed?';
-$L['cfg_ratings_allowchange_hint'] = 'If enabled it will allow users to change their rating.';
-$L['cfg_css'] = 'Use plugin CSS';
+$L['cfg_enable_ratings'] = 'Oylamayı etkinleştir';
+$L['cfg_ratings_allowchange'] = 'Oylamanın değiştirilmesine izin verilsin mi?';
+$L['cfg_ratings_allowchange_hint'] = 'Etkinleştirilirse, kullanıcıların verdikleri oyu değiştirmelerine izin verilir.';
+$L['cfg_css'] = 'Eklenti CSS dosyasını kullan';
 
 /**
- * Plugin Admin
+ * Yönetim Paneli
  */
 
-$L['adm_ratings_already_del'] = 'Rating removed';
-$L['adm_ratings_totalitems'] = 'Total pages rated';
-$L['adm_ratings_totalvotes'] = 'Total votes';
-$L['adm_help_ratings'] = 'To reset a rating, simply delete it. It will be re-created with the first new vote.';
+$L['adm_ratings_already_del'] = 'Oylama kaldırıldı';
+$L['adm_ratings_totalitems'] = 'Oylanan toplam sayfa';
+$L['adm_ratings_totalvotes'] = 'Toplam oy';
+$L['adm_help_ratings'] = 'Bir oylamayı sıfırlamak için sadece silmeniz yeterlidir. İlk yeni oyla birlikte yeniden oluşturulur.';
 
 /**
- * Plugin Body
+ * Eklenti Gövdesi
  */
 
-$L['rat_choice1'] = 'Very poor';
-$L['rat_choice2'] = 'Poor';
-$L['rat_choice3'] = 'Not that bad';
-$L['rat_choice4'] = 'Fair';
-$L['rat_choice5'] = 'Average';
-$L['rat_choice6'] = 'Almost good';
-$L['rat_choice7'] = 'Good';
-$L['rat_choice8'] = 'Very good';
-$L['rat_choice9'] = 'Excellent';
-$L['rat_choice10'] = 'Perfect';
-$L['rat_votecasted'] = 'Done, vote successfully recorded';
-$L['rat_since'] = 'since';
-$L['rat_notyetrated'] = 'Not yet rated';
-$L['rat_alreadyvoted'] = 'You\'ve already voted for this item.';
-$L['rat_registeredonly'] = 'Only registered users can rate items.';
+$L['rat_choice1'] = 'Berbat';
+$L['rat_choice2'] = 'Kötü';
+$L['rat_choice3'] = 'O kadar da kötü değil';
+$L['rat_choice4'] = 'Fena değil';
+$L['rat_choice5'] = 'Ortalama';
+$L['rat_choice6'] = 'Neredeyse iyi';
+$L['rat_choice7'] = 'İyi';
+$L['rat_choice8'] = 'Çok iyi';
+$L['rat_choice9'] = 'Mükemmel';
+$L['rat_choice10'] = 'Harika';
+$L['rat_votecasted'] = 'Tamamlandı, oy başarıyla kaydedildi';
+$L['rat_since'] = 'tarihinden beri';
+$L['rat_notyetrated'] = 'Henüz oy verilmedi';
+$L['rat_alreadyvoted'] = 'Bu öğe için zaten oy verdiniz.';
+$L['rat_registeredonly'] = 'Yalnızca kayıtlı kullanıcılar oy verebilir.';
