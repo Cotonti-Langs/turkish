@@ -1,22 +1,23 @@
 <?php
 /**
- * English Language File for Referers
+ * Referers Eklentisi için Türkçe Dil Dosyası
  *
  * @package Referers
- * @copyright (c) Cotonti Team
+ * @copyright (c) Cotonti Takımı
  * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
-defined('COT_CODE') or die('Wrong URL.');
+defined('COT_CODE') or die('Hatalı URL.');
 
-$L['info_desc'] = 'Simple referers statistics recommended for small sites';
+$L['info_desc'] = 'Küçük siteler için önerilen basit referans istatistikleri';
 
-$L['Referer'] = 'Referer';
-$L['Referers'] = 'Referers';
+$L['Referer'] = 'Yönlendiren';
+$L['Referers'] = 'Yönlendirenler';
+
 /**
- * Other Section
- * Referers Subsection
+ * Diğer Bölüm
+ * Referers Alt Bölümü
  */
 
-$L['adm_ref_prune'] = 'Cleaned';
-$L['adm_ref_prunelowhits'] = 'Referers with less than 5 visitors succesfully removed';
+$L['adm_ref_prune'] = 'Temizlendi';
+$L['adm_ref_prunelowhits'] = '5 ziyaretçiden az yönlendirme alan referanslar başarıyla kaldırıldı';
