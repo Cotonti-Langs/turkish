@@ -1,106 +1,106 @@
 <?php
 /**
- * English Language File for Search Plugin
+ * Search Eklentisi için Türkçe Dil Dosyası
  *
  * @package Search
- * @copyright (c) Cotonti Team
+ * @copyright (c) Cotonti Takımı
  * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
-defined('COT_CODE') or die('Wrong URL.');
+defined('COT_CODE') or die('Hatalı URL.');
 
 /**
- * Plugin Title & Subtitle
+ * Eklenti Başlığı ve Alt Başlığı
  */
 
-$L['plu_search'] = 'Search';
+$L['plu_search'] = 'Arama';
 
 /**
- * Plugin Body
+ * Eklenti Gövdesi
  */
 
-// Common - title, info, query
-$L['plu_search_req'] = 'Query';
-$L['plu_search_key'] = 'Find';
-$L['plu_search_forums'] = 'Search forums';
-$L['plu_search_pages'] = 'Search pages';
+// Genel - başlık, bilgi, sorgu
+$L['plu_search_req'] = 'Sorgu';
+$L['plu_search_key'] = 'Bul';
+$L['plu_search_forums'] = 'Forumlarda ara';
+$L['plu_search_pages'] = 'Sayfalarda ara';
 
-// Mode selectors and result titles
-$L['plu_tabs_all'] = 'All';
-$L['plu_tabs_frm'] = 'Forums';
-$L['plu_tabs_pag'] = 'Pages';
+// Sekmeler ve sonuç başlıkları
+$L['plu_tabs_all'] = 'Tümü';
+$L['plu_tabs_frm'] = 'Forumlar';
+$L['plu_tabs_pag'] = 'Sayfalar';
 
-// Parameters - common
-$L['plu_ctrl_list'] = 'Hold CTRL to select multiple sections';
-$L['plu_allsections'] = 'All sections';
-$L['plu_allcategories'] = 'All categories';
-$L['plu_res_sort'] = 'Order results by';
-$L['plu_sort_desc'] = 'Descending';
-$L['plu_sort_asc'] = 'Ascending';
-$L['plu_other_opt'] = 'Optional parameters';
-$L['plu_other_date'] = 'Including date';
-$L['plu_other_userfilter'] = 'Filter users';
+// Ortak parametreler
+$L['plu_ctrl_list'] = 'Birden fazla bölüm seçmek için CTRL tuşunu basılı tutun';
+$L['plu_allsections'] = 'Tüm bölümler';
+$L['plu_allcategories'] = 'Tüm kategoriler';
+$L['plu_res_sort'] = 'Sonuçları sırala';
+$L['plu_sort_desc'] = 'Azalan';
+$L['plu_sort_asc'] = 'Artan';
+$L['plu_other_opt'] = 'Diğer seçenekler';
+$L['plu_other_date'] = 'Tarih dahil';
+$L['plu_other_userfilter'] = 'Kullanıcı filtresi';
 
-// Parameters - dates
-$L['plu_any_date'] = 'Any date';
-$L['plu_last_2_weeks'] = 'Last 2 weeks';
-$L['plu_last_1_month'] = 'Last month';
-$L['plu_last_3_month'] = 'Last 3 months';
-$L['plu_last_1_year'] = 'Last year';
-$L['plu_need_datas'] = 'Custom range';
+// Tarih parametreleri
+$L['plu_any_date'] = 'Tüm tarihler';
+$L['plu_last_2_weeks'] = 'Son 2 hafta';
+$L['plu_last_1_month'] = 'Son 1 ay';
+$L['plu_last_3_month'] = 'Son 3 ay';
+$L['plu_last_1_year'] = 'Son 1 yıl';
+$L['plu_need_datas'] = 'Özel aralık';
 
-// Parameters - forums
-$L['plu_frm_set_sec'] = 'Select forum sections';
-$L['plu_frm_res_sort1'] = 'Topic updated';
-$L['plu_frm_res_sort2'] = 'Topic started';
-$L['plu_frm_res_sort3'] = 'Topic title';
-$L['plu_frm_res_sort4'] = 'Replies count';
-$L['plu_frm_res_sort5'] = 'Views count';
-$L['plu_frm_res_sort6'] = 'Section';
-$L['plu_frm_search_names'] = 'Search in topic titles';
-$L['plu_frm_search_post'] = 'Search in posts';
-$L['plu_frm_search_answ'] = 'Show topics with replies only';
-$L['plu_frm_set_subsec'] = 'Include subsections';
+// Forum parametreleri
+$L['plu_frm_set_sec'] = 'Forum bölümlerini seç';
+$L['plu_frm_res_sort1'] = 'Konu güncellendi';
+$L['plu_frm_res_sort2'] = 'Konu başlatıldı';
+$L['plu_frm_res_sort3'] = 'Konu başlığı';
+$L['plu_frm_res_sort4'] = 'Yanıt sayısı';
+$L['plu_frm_res_sort5'] = 'Görüntülenme sayısı';
+$L['plu_frm_res_sort6'] = 'Bölüm';
+$L['plu_frm_search_names'] = 'Konu başlıklarında ara';
+$L['plu_frm_search_post'] = 'Gönderilerde ara';
+$L['plu_frm_search_answ'] = 'Sadece yanıtlanmış konuları göster';
+$L['plu_frm_set_subsec'] = 'Alt bölümleri dahil et';
 
-// Parameters - pages
-$L['plu_pag_set_sec'] = 'Select page categories';
-$L['plu_pag_res_sort1'] = 'Date published';
-$L['plu_pag_res_sort2'] = 'Title';
-$L['plu_pag_res_sort3'] = 'Popularity';
-$L['plu_pag_res_sort4'] = 'Category';
-$L['plu_pag_search_names'] = 'Search in page titles';
-$L['plu_pag_search_desc'] = 'Search in page descriptions';
-$L['plu_pag_search_text'] = 'Search in page text';
-$L['plu_pag_search_file'] = 'Show pages with files only';
-$L['plu_pag_set_subsec'] = 'Include subcategories';
+// Sayfa parametreleri
+$L['plu_pag_set_sec'] = 'Sayfa kategorilerini seç';
+$L['plu_pag_res_sort1'] = 'Yayınlanma tarihi';
+$L['plu_pag_res_sort2'] = 'Başlık';
+$L['plu_pag_res_sort3'] = 'Popülerlik';
+$L['plu_pag_res_sort4'] = 'Kategori';
+$L['plu_pag_search_names'] = 'Sayfa başlıklarında ara';
+$L['plu_pag_search_desc'] = 'Sayfa açıklamalarında ara';
+$L['plu_pag_search_text'] = 'Sayfa içeriğinde ara';
+$L['plu_pag_search_file'] = 'Sadece dosya içeren sayfaları göster';
+$L['plu_pag_set_subsec'] = 'Alt kategorileri dahil et';
 
-// Error messages
-$L['plu_querytooshort'] = 'The query string is too short';
-$L['plu_toomanywords'] = 'Too many words, limit is set to';
-$L['plu_noneresult'] = 'Nothing was found. Please try to simplify your query';
-$L['plu_usernotexist'] = 'User does not exists';
+// Hata mesajları
+$L['plu_querytooshort'] = 'Arama sorgusu çok kısa';
+$L['plu_toomanywords'] = 'Çok fazla kelime, sınır:';
+$L['plu_noneresult'] = 'Hiçbir sonuç bulunamadı. Lütfen sorgunuzu basitleştirin.';
+$L['plu_usernotexist'] = 'Kullanıcı mevcut değil';
 
-// Results
-$L['plu_result'] = 'Search results';
-$L['plu_found'] = 'Found';
-$L['plu_match'] = 'matches';
-$L['plu_section'] = 'Section';
-$L['plu_last_date'] = 'Date updated';
+// Sonuçlar
+$L['plu_result'] = 'Arama sonuçları';
+$L['plu_found'] = 'Bulundu';
+$L['plu_match'] = 'eşleşme';
+$L['plu_section'] = 'Bölüm';
+$L['plu_last_date'] = 'Güncellenme tarihi';
 
 /**
- * Plugin Config
+ * Eklenti Ayarları
  */
 
-$L['cfg_maxwords'] = 'Max. words in search query';
-$L['cfg_maxsigns'] = 'Max. letters in search query';
-$L['cfg_maxitems'] = 'Max. entries in normal search results';
-$L['cfg_minsigns'] = 'Min. signs in query';
-$L['cfg_pagesearch'] = 'Enable pages search';
-$L['cfg_forumsearch'] = 'Enable forums search';
-$L['cfg_searchurl'] = 'Type of forum post link to use';
-$L['cfg_searchurl_hint'] = 'Single uses a Single post view, while Normal uses the traditional thread/jump-to link';
-$L['cfg_addfields'] = 'Additional pages fields for search, separated by commas';
-$L['cfg_addfields_hint'] = 'Example "page_extra1,page_extra2,page_key"';
-$L['cfg_extrafilters'] = 'Show extrafilters on main search page';
+$L['cfg_maxwords'] = 'Arama sorgusundaki maksimum kelime sayısı';
+$L['cfg_maxsigns'] = 'Arama sorgusundaki maksimum karakter sayısı';
+$L['cfg_maxitems'] = 'Normal arama sonuçlarındaki maksimum öğe sayısı';
+$L['cfg_minsigns'] = 'Sorgudaki minimum karakter sayısı';
+$L['cfg_pagesearch'] = 'Sayfa aramasını etkinleştir';
+$L['cfg_forumsearch'] = 'Forum aramasını etkinleştir';
+$L['cfg_searchurl'] = 'Kullanılacak forum bağlantı türü';
+$L['cfg_searchurl_hint'] = '“Single” tek gönderi görünümünü kullanır, “Normal” geleneksel konu bağlantısını kullanır';
+$L['cfg_addfields'] = 'Sayfa aramasına dahil edilecek ek alanlar (virgülle ayrılmış)';
+$L['cfg_addfields_hint'] = 'Örnek: "page_extra1,page_extra2,page_key"';
+$L['cfg_extrafilters'] = 'Ana arama sayfasında ek filtreleri göster';
 
-$L['info_desc'] = 'Advanced search in pages, forums and other locations.';
+$L['info_desc'] = 'Sayfalar, forumlar ve diğer alanlarda gelişmiş arama.';
